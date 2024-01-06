@@ -1,0 +1,316 @@
+.bgimg{
+    width: 100%;
+    height: 10  50px;
+    border: 1px solid black;
+   
+   
+
+}
+body{
+    background-color:rgb(34, 33, 33);
+}
+
+.navbar-toggler-icon {
+    background-color: #333; /* Adjust icon color as needed */
+}
+
+.navbar-nav {
+    text-align: center;
+    color: black;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+}
+
+.nav-link {
+    color:orange; /* Adjust link color as needed */
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.nav-link:hover {
+    color:aqua; /* Adjust link hover color as needed */
+}
+
+.img22{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid orange; */
+    border-radius: 50%;
+    background-image: url(./Assets/vanshaj.png);
+    background-size:150%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-left: 45px;
+    margin-top: 8%;
+    box-shadow: 0 0 20px orange; 
+    overflow: hidden;
+    
+}
+.img22:hover{
+    box-shadow: 0 0 20px aqua; 
+}
+.mytext{
+    color: orange;
+}
+
+
+.header-subtitle{
+    color:white;
+    font-size: xx-large;
+    
+    
+}
+.header-subtitle:hover{
+    color: orange;
+}
+.header-title{
+    color: orange;
+    margin-right: 10%;
+    margin-top: -2%;
+}
+.title:hover{
+    color: orange;
+}
+.header-title:hover{
+    color:aqua;
+}
+.header-content{
+    margin-left: 47%;
+    margin-top: -33%;
+    font-size: 250%;
+}
+
+.header-dream-job{
+    color: aliceblue;
+    margin-top: -6%;
+}
+.header-dream-job:hover{
+    color:aqua;
+    
+}
+.day {
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+/* javascript css  */
+
+
+.mainContainer {
+    text-align: center;
+    margin-top:50px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: -30%;
+
+}
+
+.popupContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+}
+
+.popupContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.popupContent img {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.popupContent h2, .popupContent p {
+    color: #333;
+    margin: 0;
+}
+
+.popupContent button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+.popupActive {
+    display: flex;
+}
+
+
+/* education part csss */
+/* Education and Skills Box Styling */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-box {
+    background-color: #3498db;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-box h2 {
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.section-box p {
+    line-height: 1.6;
+}
+
+/* Skills List Styling */
+#skills ul {
+    padding-left: 20px;
+}
+
+/* Style for the projects section */
+#projects {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+}
+
+#projects h2 {
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+#projects p {
+    line-height: 1.6;
+}
+
+/* Style for project details or snippets */
+.project-details {
+    margin-top: 15px;
+    border-left: 2px solid #e67e22;
+    padding-left: 15px;
+}
+#education{
+    margin-bottom: 50%;
+}
+
+
+.skills_1{
+    height: 250px;
+    width: 30% ;
+    border-radius: 10%;
+    border: 2px solid white;
+    text-align: left;
+    font-size:medium;
+    margin-left:13%;
+    margin-top: 5%;
+    background-color: powderblue  ;
+    box-shadow: 0 0 20px aqua; 
+    
+    h1{
+        color:orange;
+        text-align: center;
+    }
+    li{
+        color:black;
+        text-align: center;
+    }
+}
+
+
+
+.Education{
+    height: 250px;
+    width: 30% ;
+    border-radius: 10%;
+    border: 2px solid white;
+    text-align: left;
+    font-size:medium;
+    margin-left:59%;
+    margin-top: -19%;
+    background-color: powderblue  ;
+    box-shadow: 0 0 20px aqua   ; 
+    align-items: center;    
+    h1{
+        color:orange;
+        text-align: center;
+    }
+    p{
+        color:black;
+    }
+    padding: 0px;
+    
+}
+
+.boxes{
+    margin-top: -15%;
+}
+
+
+.about_me{
+    height: 400px;
+    width: 50%;
+    /* border: 2px solid orange; */
+    margin-top: 5%;
+    
+    margin-left:2%;
+    background-image:url(./Assets/a\ \(1\).jpeg)   ;
+    background-repeat: no-repeat;
+    background-size:50%
+}
+
+.boardgame2{
+    height: 400px;
+    width: 50%;
+    /* border: 2px solid orange; */
+    
+    
+    margin-left:60%;
+    margin-top: -30%;
+    background-image:url(./Assets/a\ \(2\).jpeg)    ;
+    background-repeat: no-repeat;
+    background-size: 60%;
+
+}
+
+.boardgame{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center  ;
+    font-size: 300%;
+    color: white;
+}
+
